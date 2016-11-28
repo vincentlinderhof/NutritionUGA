@@ -1,0 +1,75 @@
+
+====================================================================================================================
+Statistic                                                              N      Mean     St. Dev.    Min       Max    
+--------------------------------------------------------------------------------------------------------------------
+Householdsize                                                        1,722   6.872      3.227       1        23     
+FCS                                                                  1,714   56.838     21.717    0.000    151.500  
+Numberofdiffererentcropsproducedbythehousehold                       1,722   5.145      2.100       1        16     
+Ageofthehouseholdhead                                                1,720   47.153     15.012     17        98     
+Educationlevelofthehouseholdhead                                     1,342   20.636     10.775     10        61     
+Totalcroppedarea                                                     1,722   5.088      21.741    0.000    816.100  
+DDS                                                                  1,714   7.352      1.972       1        12     
+Numberofhouseholdproductionbynutritionalgroup                        1,722   3.369      1.084       1         8     
+Foodexpenditure                                                      1,721  250.172    365.055    0.000   4,115.000 
+Nonfoodexpenditure                                                   1,707  201.664    537.333    0.100  10,278.450 
+Incomes                                                              1,678 1,754.869  6,484.845   0.900  202,370.000
+Numberofdifferentnonagriculturalincomesources                        1,722   0.095      0.351       0         5     
+Proportionoffoodconsumedinpreviousoneweekfromhouseholdsownproduction 1,715   0.372      0.192     0.000     1.000   
+Simpsonsindex                                                        1,555   0.620      0.208     0.000     0.892   
+CaloriesbyHH                                                         1,713 73,131.290 57,374.230 658.000 694,847.300
+Agriculturalincomes                                                  1,722  730.401   4,752.378   0.000  168,754.800
+NonAgriculturalincomes                                               1,722   3.086     116.843    0.000   4,844.435 
+Propertyincomes                                                      1,722  451.594   2,044.573   0.000  42,125.520 
+Investments                                                          1,722   66.088    514.688    0.000  10,110.120 
+Transfers                                                            1,722  189.547    810.360    0.000  16,850.210 
+--------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Statistic                                                              N      Mean     St. Dev.   Min       Max    
+-------------------------------------------------------------------------------------------------------------------
+Householdsize                                                        1,722   7.527      3.494      1        25     
+FCS                                                                  1,665   55.503     21.924   1.000    150.000  
+Numberofdiffererentcropsproducedbythehousehold                       1,722   5.117      2.089      1        16     
+Ageofthehouseholdhead                                                1,722   47.819     15.007     14       99     
+Educationlevelofthehouseholdhead                                     1,440   21.099     11.856     0        61     
+Totalcroppedarea                                                     1,722   5.564      29.791   0.000    676.000  
+DDS                                                                  1,665   7.329      2.042      1        12     
+Numberofhouseholdproductionbynutritionalgroup                        1,722   3.318      1.062      1         8     
+Foodexpenditure                                                      1,683  272.951    428.820   0.000   7,526.356 
+Nonfoodexpenditure                                                   1,715  144.470    363.421   0.126   6,319.881 
+Incomes                                                              1,618 1,739.883  7,515.299  4.213  269,729.700
+Numberofdifferentnonagriculturalincomesources                        1,722   0.311      0.660      0         8     
+Proportionoffoodconsumedinpreviousoneweekfromhouseholdsownproduction 1,666   0.343      0.201    0.000     1.000   
+Simpsonsindex                                                        1,587   0.598      0.227    0.000     0.909   
+CaloriesbyHH                                                         1,660 67,420.060 75,311.220 90.000 990,595.000
+Agriculturalincomes                                                  1,693  633.747   1,624.637  0.000  43,810.540 
+NonAgriculturalincomes                                               1,693   0.227      5.373    0.000    168.502  
+Propertyincomes                                                      1,693  648.272   6,791.093  -8.425 269,603.300
+Investments                                                          1,693  126.587   1,463.418  0.000  38,755.480 
+Transfers                                                            1,693  253.968   1,202.164  0.000  29,487.860 
+-------------------------------------------------------------------------------------------------------------------
+
+===================================================================================================================
+Statistic                                                              N      Mean     St. Dev.   Min       Max    
+-------------------------------------------------------------------------------------------------------------------
+Householdsize                                                        1,722   8.154      3.803      1        33     
+FCS                                                                  1,721   59.337     21.340   5.500    128.000  
+Numberofdiffererentcropsproducedbythehousehold                       1,722   4.832      1.971      1        15     
+Ageofthehouseholdhead                                                1,711   48.667     14.766     20       100    
+Educationlevelofthehouseholdhead                                     1,402   20.612     11.224     0        61     
+Totalcroppedarea                                                     1,722   4.017      7.648    0.000    108.800  
+DDS                                                                  1,721   7.482      2.053      1        12     
+Numberofhouseholdproductionbynutritionalgroup                        1,722   3.262      1.023      1         7     
+Foodexpenditure                                                      1,722  297.004    464.609   0.000   6,899.334 
+Nonfoodexpenditure                                                   1,718  148.377    701.272   0.222  26,060.710 
+Incomes                                                              1,618 1,807.590  5,011.377  0.052  125,619.800
+Numberofdifferentnonagriculturalincomesources                        1,722   0.292      0.596      0         5     
+Proportionoffoodconsumedinpreviousoneweekfromhouseholdsownproduction 1,722   0.386      0.200    0.000     1.000   
+Simpsonsindex                                                        1,545   0.538      0.236    0.000     0.890   
+CaloriesbyHH                                                         1,722 70,892.960 73,086.240 20.000 859,265.000
+Agriculturalincomes                                                  1,702  781.299   1,919.233  0.000  45,038.390 
+NonAgriculturalincomes                                               1,702   3.543      92.629   0.000   3,694.700 
+Propertyincomes                                                      1,702  558.448   3,321.522  0.000  88,672.790 
+Investments                                                          1,702   99.062   1,199.969  0.000  36,947.000 
+Transfers                                                            1,701  276.189   1,538.283  0.000  36,947.000 
+-------------------------------------------------------------------------------------------------------------------

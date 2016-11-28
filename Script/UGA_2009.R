@@ -5,10 +5,9 @@
 if(Sys.info()["user"] == "Tomas"){
   dataPath <- "C:/Users/Tomas/Documents/LEI/data/UGA/2009_10/Data"
 } else {
-  dataPath <- "W:/LEI/Internationaal Beleid  (IB)/Projecten/2285000066 Africa Maize Yield Gap/SurveyData/UGA/2009_10/Data/"
+  dataPath <- "D:/Analyses/CIMMYT/NutritionUGA/SurveyData/2009_10/Data"
 }
-
-
+setwd("D:/Analyses/CIMMYT/NutritionUGA")
 
 library(haven)
 library(reshape2)
@@ -41,6 +40,7 @@ location <- left_join(location, REGDIS)
 ########### SOCIO/ECONOMIC ############
 #######################################
 
+HH09 <- read_dta(file.path(dataPath, "GSEC2.dta"))
 HH09 <- read_dta(file.path(dataPath, "GSEC2.dta")) %>%
   select(HHID, indidy1=PID, status=h2q4, sex=h2q3,
          yob=h2q9c, age=h2q8)
