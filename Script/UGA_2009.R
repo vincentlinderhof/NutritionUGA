@@ -36,6 +36,7 @@ REGDIS <- select(REGDIS, REGCODE=LSMSREGCODE, DISTNAME=LSMSDISTNAME, DISTCODE=LS
 
 location <- left_join(location, REGDIS)
 
+
 #######################################
 ########### SOCIO/ECONOMIC ############
 #######################################

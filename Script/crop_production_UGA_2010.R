@@ -36,10 +36,11 @@ library(tidyr)
 library(dplyr)
 library(haven)
 
-if(Sys.info()["user"] == "Tomas"){
-  dataPath <- "C:/Users/Tomas/Documents/LEI/data/UGA/2010_11/Data"
-} else {
-  dataPath <- "W:/LEI/Internationaal Beleid  (IB)/Projecten/2285000066 Africa Maize Yield Gap/SurveyData/UGA/2010_11/Data/"
+if(Sys.info()["user"] == "Tomas"){ 
+  dataPath <- "C:/Users/Tomas/Documents/LEI/data/UGA/2010_11/Data" }
+if(Sys.info()["user"] == "linde069"){
+  dataPath <- "D:/Analyses/CIMMYT/NutritionUGA/SurveyData/2010_11/Data"
+  setwd("D:/Analyses/CIMMYT/NutritionUGA")
 }
 
 # -------------------------------------
@@ -127,7 +128,9 @@ CTR <- c(610, 112, 120, 141, 150, 620, 440, 640, 650)
 CCNP <- c(520, 530)
 veg <- c(410, 420, 430, 450, 460, 470)
 leg <- c(210, 221, 222, 223, 224, 310, 320, 330, 340)
-other <- c(fruit, CCP, CTR, CCNP, veg, leg)
+maize <-c(130)
+wheat <- c(111)
+other <- c(fruit, CCP, CTR, CCNP, veg, leg, maize, wheat)
 
 # get a variable with the crop group
 crop_prod$type <- character(nrow(crop_prod))
@@ -189,6 +192,12 @@ crop_prod_area_rel <- group_by(crop_prod_z, HHID, type) %>%
   summarise_each(funs(sum)) %>% spread(key = type, value = area_rel) 
 names(crop_prod_area_rel) <- paste0(names(crop_prod_area_rel), "_area_rel")
 names(crop_prod_area_rel)[1] <- "HHID"
+
+saveRDS(crop_prod_harv_area,   "Data/Crop_prod_harv_area_2010.rds")
+saveRDS(crop_prod_area_farmer, "Data/Crop_prod_area_farmer_2010.rds")
+saveRDS(crop_prod_area_gps,    "Data/Crop_prod_area_gps_2010.rds")
+saveRDS(crop_prod_area_rel,    "Data/Crop_prod_area_rel_2010.rds")
+saveRDS(crop_prod_area_mix,    "Data/Crop_prod_area_mix_2010.rds")
 
 # take out trash
 rm(crop_prod_v, crop_prod_w, crop_prod_x,

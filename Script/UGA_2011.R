@@ -2,10 +2,11 @@
 ########### UGANDA 2011-12 ############
 #######################################
 
-if(Sys.info()["user"] == "Tomas"){
-  dataPath <- "C:/Users/Tomas/Documents/LEI/data/UGA/2011_12/Data"
-} else {
-  dataPath <- "W:/LEI/Internationaal Beleid  (IB)/Projecten/2285000066 Africa Maize Yield Gap/SurveyData/UGA/2011_12/Data/"
+if(Sys.info()["user"] == "Tomas"){ 
+  dataPath <- "C:/Users/Tomas/Documents/LEI/data/UGA/2011_12/Data" }
+if(Sys.info()["user"] == "linde069"){
+  dataPath <- "D:/Analyses/CIMMYT/NutritionUGA/SurveyData/2011_12/Data"
+  setwd("D:/Analyses/CIMMYT/NutritionUGA")
 }
 
 library(haven)
@@ -23,6 +24,8 @@ location <- read_dta(file.path(dataPath, "GSEC1.dta")) %>%
 location$rural <- ifelse(location$rural %in% 0, 1, 0)
 location$REGNAME <- toupper(as_factor(location$REGCODE))
 location$REGCODE <- as.numeric(location$REGCODE)
+
+saveRDS(location, "Data/Location_2011.rds")
 
 #######################################
 ########### SOCIO/ECONOMIC ############
